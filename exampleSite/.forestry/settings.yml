@@ -5,11 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Policies
-- type: heading
   label: Author
 - type: heading
   label: Project
+- type: document
+  path: Contact
+  label: Contact
+  match: "**/*"
+  read_only: true
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
