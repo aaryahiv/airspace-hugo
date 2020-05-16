@@ -11,7 +11,6 @@ sections:
 - type: document
   path: Policies
   label: Policies
-  match: "**/*"
   read_only: true
 - type: document
   path: Contact
@@ -21,7 +20,7 @@ upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":dogwalking:/:filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
