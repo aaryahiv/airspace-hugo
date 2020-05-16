@@ -9,9 +9,13 @@ sections:
 - type: heading
   label: Project
 - type: document
+  path: Policies
+  label: Policies
+  match: "**/*"
+  read_only: true
+- type: document
   path: Contact
   label: Contact
-  match: "**/*"
   read_only: true
 upload_dir: exampleSite/static/images
 public_path: "/images"
